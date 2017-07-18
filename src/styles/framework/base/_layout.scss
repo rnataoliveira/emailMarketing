@@ -1,0 +1,111 @@
+z.main {
+  width: 100%;
+}
+
+.container {
+  max-width: 600px;
+  width    : 100%;
+}
+
+.mobileshow {
+  display   : none;
+  overflow  : hidden;
+  width     : 0;
+  max-height: 0;
+}
+
+.seperator {
+  padding      : 5px 0;
+  border       : none;
+  border-bottom: 1px solid $alto;
+  width        : 90%;
+}
+
+.button {
+  background-color: $white;
+  padding         : 10px 45px;
+  font-size       : 20px;
+  font-weight     : bolder;
+  border          : 1px solid $alto;
+}
+
+.column-container {
+  max-width: 600px;
+  width    : 100%;
+  padding  : 0;
+
+  .inner {
+    max-width: 600px;
+    width    : 100%;
+
+    .one-column {
+      .column-full {
+        width: 100%;
+      }
+    }
+
+    .two-columns {
+      @extend .inner;
+
+      .column-mid {
+        width: 48%;
+      }
+    }
+
+    .three-columns {
+      @extend .two-columns;
+
+      .inner-column {
+        width: 68%;
+
+        .column-mid {
+          width: 44%;
+        }
+      }
+
+      .column-small {
+        width: 30%;
+      }
+    }
+
+    .heading {
+      font-size: $heading-font-size;
+    }
+
+    .primary-text {
+      font-size: $primary-font-size;
+    }
+
+    .sub-text {
+      font-size: $secondary-font-size;
+    }
+
+    .column-small {
+      width: 25%;
+    }
+
+    .column-mid {
+      width: 48%;
+    }
+
+    .column-full {
+      width: 100%;
+    }
+  }
+}
+
+.border-top-large {
+  border-top: 4px solid $black;
+}
+
+.border-bottom-large {
+  border-bottom: 4px solid $black;
+}
+
+.border-top-small {
+  border-top: 1px solid $black;
+}
+
+.border-bottom-small {
+  border-bottom: 1px solid $black;
+}
