@@ -12,5 +12,5 @@ __3.__ Suponhamos que você estivesse fazendo um aplicativo de lista de compras 
 __R.: Como responsável pelo frontend, acredito que inicialmente iria projetar e construir a interface, utilizando html, css e torná-la funcional e iterativa, utilizando JavaScript. Além de me preocupar com a estruturação, definir padrões de código e documentando o projeto.__  
 __Questão prática__  
 __4.__ Crie um e-mail marketing para anunciar o seu framework javascript favorito. Use todas as suas habilidades para deixá-lo acessível, leve e objetivo. ;)  
-__R.: Com a ajuda yeoman, utilizei o easyEmail para gerar um modelo de e-mail marketing e pude então modificá-lo para realizar o meu teste. O código fonte encontra-se neste repositório.__  
+__R.: Utilizei um generator do yeoman para criar a estrutura inicial do projeto. O Generator easy email já cria uma estrutura básica com as ferramentas necessárias para gerar o build do e-mail marketing nos padrões necessários. Como conteúdo, utilizei a home page do framework Angular, adaptando-a como um exemplo de email marketing.__ 
 [Ver o teste prático](https://rnataoliveira.github.io/teste-estagio-frontend/src/build/)
