@@ -3,17 +3,17 @@ $light: 100;
 $regular: 400;
 $heavy: 800;
 /*Primary Font-Family*/
-$primary-font-family: "helvetica";
+$primary-font-family: "Verdana";
 $primary-font-weight: $regular;
 $primary-font-size: 18px;
 $primary-line-height: 20px;
 /*Secondary Font-Family*/
-$secondary-font-family: "helvetica";
+$secondary-font-family: "Verdana";
 $secondary-font-weight: $regular;
 $secondary-font-size: 12px;
 $secondary-line-height: 20px;
 /*Heading Font-Family*/
-$heading-font-family: "helvetica";
+$heading-font-family: "Verdana";
 $heading-font-weight: $heavy;
 $heading-font-size: 44px;
 $heading-line-height: 20px;
@@ -77,4 +77,8 @@ $heading-line-height: 20px;
 .heading-large {
   font-size  : 40px;
   font-weight: $primary-font-weight;
+}
+
+.decoration {
+  text-decoration: none;
 }

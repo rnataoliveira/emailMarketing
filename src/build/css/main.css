@@ -1,5 +1,5 @@
 .carnation {
-  background-color: #FE595F; }
+  background-color: #1C86EE; }
 
 .wild-sand {
   background-color: #F6F6F6; }
@@ -124,7 +124,7 @@ a img {
 /*Heading Font-Family*/
 /*Font-class-Colors*/
 .font-carnation {
-  color: #FE595F; }
+  color: #1C86EE; }
 
 .font-wild-sand {
   color: #F6F6F6; }
@@ -169,6 +169,9 @@ a img {
 .heading-large {
   font-size: 40px;
   font-weight: 400; }
+
+.decoration {
+  text-decoration: none; }
 
 .header-container, .header-container .header {
   width: 100%;
